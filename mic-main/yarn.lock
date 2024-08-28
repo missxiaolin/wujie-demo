@@ -976,7 +976,7 @@
   resolved "https://registry.npmmirror.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.12.13", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.12.13", "@babel/runtime@^7.18.6", "@babel/runtime@^7.8.4":
   version "7.25.4"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.25.4.tgz#6ef37d678428306e7d75f054d5b1bdb8cf8aa8ee"
   integrity sha512-DSgLeL/FNcpXuzav5wfYvHCGvynXkJbn3Zvc3823AEe9nPwW9IK4UoCSS5yGymmQzN0pCPvivtgS6/8U2kkm1w==
@@ -6214,6 +6214,20 @@ ws@^8.13.0:
   version "8.18.0"
   resolved "https://registry.npmmirror.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
   integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
+
+"wujie-vue2@workspace:^1.0.22":
+  version "1.0.22"
+  resolved "https://registry.npmmirror.com/wujie-vue2/-/wujie-vue2-1.0.22.tgz#591a2d0a80688fd7df56e01ba5b7dad3e26ec27c"
+  integrity sha512-G+5B4y4C6NwYy31QL9pR5m+1BvQWSmgbQzFQdLEAJhFydS9dizQAgNK1VPfCBxSXM3jz2xfQz75WpE4aX4Jqdw==
+  dependencies:
+    wujie "1.0.22"
+
+wujie@1.0.22, "wujie@workspace:^1.0.22":
+  version "1.0.22"
+  resolved "https://registry.npmmirror.com/wujie/-/wujie-1.0.22.tgz#15722d07a385c99e93549f8e84aba1af973dc86b"
+  integrity sha512-gzx13fp9hgTHdV9XetkVmp794uDSR93Zs9jLr891RaWRuMiLFoxh3Pe4qbmW604SxI8nMTHeIRydbgC7YxQ50Q==
+  dependencies:
+    "@babel/runtime" "^7.18.6"
 
 y18n@^5.0.5:
   version "5.0.8"

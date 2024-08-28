@@ -11,7 +11,10 @@
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+    "whatwg-fetch": "^3.6.2",
+    "wujie": "workspace:^1.0.22",
+    "wujie-vue2": "workspace:^1.0.22"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
